@@ -43,8 +43,7 @@ lever arm and saved GT attitude. No fitted trajectory alignment is performed.
   bag-derived PVT/IMU/UWB event cache. Proposed additionally uses moving-base DD
   GNSS and a different reference-state treatment. Their comparison evaluates
   complete estimators and does not isolate smoothing versus filtering.
-- GICI LC denotes the loosely coupled configuration. No invalid GICI tightly
-  coupled result is presented as an accuracy baseline.
+- GICI is included as a localization baseline.
 - RTKLIB-MB has valid outputs at only 362/388, 690/751, 9/232, and 7/137 epochs.
   Its unconnected markers retain this availability limitation. It is excluded
   from the four-method full-grid statistics, and its sparse Urban outputs do
@@ -63,11 +62,14 @@ RMSEs within 2e-8 m. The Proposed percentage reduction is
 Small percentage differences from rounded manuscript values are expected.
 
 [`data/`](data) preserves the archived per-epoch rows for Ground truth,
-Proposed full, CR-EKF, u-blox, GICI LC, and RTKLIB-MB. The separate matched-input
+Proposed full, CR-EKF, u-blox, GICI, and RTKLIB-MB. The separate matched-input
 FGO diagnostic is omitted. Proposed Suburban 1 comes from
 `replay_consistency_suburban1_1x_retry_20260915`; the other Proposed routes come
 from `dd_covariance_B_remaining_1x_frozen_20260915`. These source replays use 1x
 playback. No UWB ablation or synthetic-range experiment is packaged here.
+
+The public method label is normalized to GICI. Original run identifiers are
+retained for provenance, and numerical sample and metric fields are unchanged.
 
 [`manifest.json`](manifest.json) records source workspace paths, source file
 SHA-256 values, packaged file SHA-256 values, and conversion/filtering steps.

@@ -18,7 +18,7 @@ ROUTES = {
     "Urban 1": ("urban_1", 232, 1780633605, 1780633836, -0.28, 9),
     "Urban 2": ("urban_2", 137, 1780634534, 1780634670, -0.15, 7),
 }
-METHODS = ("Proposed full", "CR-EKF", "u-blox", "GICI LC")
+METHODS = ("Proposed full", "CR-EKF", "u-blox", "GICI")
 
 
 def read_csv(path):

@@ -55,7 +55,7 @@ Four real-road sequences cover suburban roads and urban environments with buildi
 
 ### Trajectory Comparisons
 
-The following figures show archived estimates in each route's local East–North frame. They compare AsymCoLoc (labelled **Proposed (full)**), a cooperative EKF baseline (**CR-EKF**), standalone **u-blox**, and loosely coupled **GICI-Lib** against ground truth. **RTKLIB-MB** is shown only at valid output epochs using unconnected markers.
+The following figures show archived estimates in each route's local East–North frame. They compare AsymCoLoc (labelled **Proposed (full)**), a cooperative EKF baseline (**CR-EKF**), standalone **u-blox**, and **GICI** against ground truth. **RTKLIB-MB** is shown only at valid output epochs using unconnected markers.
 
 <table>
   <tr>

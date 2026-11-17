@@ -3,10 +3,10 @@
   "artifacts": [
     {
       "path": "results/real_world_snapshot/data/suburban_1.csv",
-      "sha256": "9225a67b2c8659e20c286fc80debe71fa94d6ebbfab9247b87a8045aba56355a",
+      "sha256": "74de4894167a56f499965cf13e854c0e51a031c31b2ee403c21d644d11c16721",
       "source_workspace_path": "results/paper_plot_export_20260915_194457/data/suburban_1_plot_data.csv",
       "source_sha256": "34ea702a8f2167aa21b40a1b22cc75fb5b8151f545b3727a5246983955f91f5d",
-      "operation": "Preserve archived rows except the separate matched-input FGO diagnostic."
+      "operation": "Preserve archived rows except the separate matched-input FGO diagnostic. Normalize the public method label to GICI; retain original run identifiers and all numerical fields."
     },
     {
       "path": "assets/experiments/suburban_1_trajectory.jpg",
@@ -17,10 +17,10 @@
     },
     {
       "path": "results/real_world_snapshot/data/suburban_2.csv",
-      "sha256": "80f4b9aff4508bd423d3b3083b72ab3bb259537a235fb821fe9ae64dae0c3b67",
+      "sha256": "3fb424e3aaebfdc4fc7f256c1d19ca10ad3076ad82106843bcf837091136e91b",
       "source_workspace_path": "results/paper_plot_export_20260915_194457/data/suburban_2_plot_data.csv",
       "source_sha256": "e196318be5b30866e88ff68cd279e68c90c4309b4412270e9bba9fdf38b4c9bd",
-      "operation": "Preserve archived rows except the separate matched-input FGO diagnostic."
+      "operation": "Preserve archived rows except the separate matched-input FGO diagnostic. Normalize the public method label to GICI; retain original run identifiers and all numerical fields."
     },
     {
       "path": "assets/experiments/suburban_2_trajectory.jpg",
@@ -31,10 +31,10 @@
     },
     {
       "path": "results/real_world_snapshot/data/urban_1.csv",
-      "sha256": "7a1c3fe4c27ba4e289417fc13219837f69e2eae73f600af9b2d3495e616fa329",
+      "sha256": "c8a0a1c4775755a57890a2b0a94d286678e4ec3b984e694e29f22ddc8efa67e4",
       "source_workspace_path": "results/paper_plot_export_20260915_194457/data/urban_1_plot_data.csv",
       "source_sha256": "8494bcda2ba3038d3c1286b69ca18a9c724b8938369ec73c00ecc2d7853fa711",
-      "operation": "Preserve archived rows except the separate matched-input FGO diagnostic."
+      "operation": "Preserve archived rows except the separate matched-input FGO diagnostic. Normalize the public method label to GICI; retain original run identifiers and all numerical fields."
     },
     {
       "path": "assets/experiments/urban_1_trajectory.jpg",
@@ -45,10 +45,10 @@
     },
     {
       "path": "results/real_world_snapshot/data/urban_2.csv",
-      "sha256": "549bdf4a9184d9284225d151cc51ff550419ae89638da770e000416dec2d3e07",
+      "sha256": "d9559b348c473561635354a8bfd40d14c71c0d55954a24233fe6b7955deee822",
       "source_workspace_path": "results/paper_plot_export_20260915_194457/data/urban_2_plot_data.csv",
       "source_sha256": "ad59d61516db1e22cf1793d54c47d740c4e3dac99548296d87ba99a53003344d",
-      "operation": "Preserve archived rows except the separate matched-input FGO diagnostic."
+      "operation": "Preserve archived rows except the separate matched-input FGO diagnostic. Normalize the public method label to GICI; retain original run identifiers and all numerical fields."
     },
     {
       "path": "assets/experiments/urban_2_trajectory.jpg",
@@ -66,10 +66,10 @@
     },
     {
       "path": "results/real_world_snapshot/metrics.csv",
-      "sha256": "5b4a310cd8794b69cfaf88bad6ad0c7325d593a614ed18f4431dc7d3597e309d",
+      "sha256": "09a4a40b0cc207c7184dd1d03df747f81c5fc321ff10e8ced3e04ad1e2c4075c",
       "source_workspace_path": "results/paper_plot_export_20260915_194457/data/metrics.csv",
       "source_sha256": "92a6b784246808a84071391bae6543ea17319a107298755fca0767ca34cb9bbf",
-      "operation": "Recompute full four-method statistics from packaged archived East/North samples; verify RMSE against source to 2e-8 m."
+      "operation": "Recompute full four-method statistics from packaged archived East/North samples; verify RMSE against source to 2e-8 m. Normalize the public method label to GICI; retain original run identifiers and all numerical fields."
     },
     {
       "path": "results/real_world_snapshot/repeat_replay_audit.csv",
